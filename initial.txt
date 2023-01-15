@@ -23,3 +23,20 @@ struct ContentView_Previews: PreviewProvider {
     }
 
 }
+“struct Book {
+  var name: String
+  var publicationYear: Int
+}
+ 
+let firstDickens = Book(name: "A Christmas Carol",​    publicationYear: 1843)
+let secondDickens = Book(name: "David Copperfield",​    publicationYear: 1849)
+let thirdDickens = Book(name: "A Tale of Two Cities",​    publicationYear: 1859)
+ 
+let books = [firstDickens, secondDickens, thirdDickens]
+”
+
+Excerpt From
+Develop in Swift Fundamentals
+Apple Education
+https://books.apple.com/in/book/develop-in-swift-fundamentals/id1581182804
+This material may be protected by copyright.
